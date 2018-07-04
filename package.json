@@ -1,0 +1,28 @@
+{
+  "name": "make-your-code-smell-good",
+  "version": "1.0.0",
+  "description": "Make Your Code Smell Good",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "static-server -o",
+    "serve": "browser-sync start -s -f . --ignore node_modules/ --open local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c2v4/Make-Your-Code-Smell-Good.git"
+  },
+  "author": "c2v4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c2v4/Make-Your-Code-Smell-Good/issues"
+  },
+  "homepage": "hhttps://github.com/c2v4/Make-Your-Code-Smell-Good#readme",
+  "dependencies": {
+    "remark-slide": "^0.14.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "static-server": "^2.2.1"
+  }
+}
